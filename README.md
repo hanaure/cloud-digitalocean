@@ -12,13 +12,13 @@ Abaixo tambem há alguns passos para caso precise acessar o banco de dados remot
 # Acesse o arquivo mysqld.cnf
 ``` sudo nano /etc/mysql/mysql.conf.d/mysqld.cnf```
 # Comente a linha colocando o # na frente
-#bind-address = 127.0.0.1
+``` #bind-address = 127.0.0.1 ```
 # Acesse o mysql
 ``` mysql -u root -p ```
 # Insira o comando a baixo substituindo a senha pela do mysql
-```sql GRANT ALL ON *.* TO 'root'@'%' IDENTIFIED BY 'senha' WITH GRANT OPTION; ```
+``` GRANT ALL ON *.* TO 'root'@'%' IDENTIFIED BY 'senha' WITH GRANT OPTION; ```
 # Execute os privilégios 
-FLUSH PRIVILEGES;
+``` FLUSH PRIVILEGES; ```
 # Saia do mysql
 ``` exit ```
 # Reinicie o Mysql
