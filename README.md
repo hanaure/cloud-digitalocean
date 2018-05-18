@@ -3,6 +3,9 @@ Ambiente Laravel (config inicial) em  Ubuntu 16.04.4 LTS
 
 O script será responsável  pela instalação do Mysql, PHP, PHPMyAdmin, Openssh, Composer, Redis.
 
+Funcionamento é simples, só clonar o repositório e executar setup.sh 
+(caso nescessario de permissão de execução ao arquivo, ``` chmod +x setup.sh ```)
+
 Abaixo tambem há alguns passos para caso precise acessar o banco de dados remotamente.
 (para mais detalhes consulte a documentação oficial)
 
