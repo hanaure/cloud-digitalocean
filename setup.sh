@@ -60,6 +60,7 @@ sudo apt-get install php7.1-redis --assume-yes
 sudo apt-get install php7.1-xml
 sudo apt-get install php7.1-gd
 service apache2  restart
+sudo apt-get install openssh-server
 
 # Instale apartir daqui o que você desejar 
 
