@@ -10,16 +10,16 @@ Abaixo tambem há alguns passos para caso precise acessar o banco de dados remot
 #   Configuração para liberar o acesso remoto no mysql   #
 ##########################################################
 # Acesse o arquivo mysqld.cnf
-```sh sudo nano /etc/mysql/mysql.conf.d/mysqld.cnf```
+``` sudo nano /etc/mysql/mysql.conf.d/mysqld.cnf```
 # Comente a linha colocando o # na frente
 #bind-address = 127.0.0.1
 # Acesse o mysql
-mysql -u root -p
+``` mysql -u root -p ```
 # Insira o comando a baixo substituindo a senha pela do mysql
 GRANT ALL ON *.* TO 'root'@'%' IDENTIFIED BY 'senha' WITH GRANT OPTION;
 # Execute os privilégios 
 FLUSH PRIVILEGES;
 # Saia do mysql
-exit
+``` exit ```
 # Reinicie o Mysql
-sudo systemctl restart mysql
+``` sudo systemctl restart mysql ```
