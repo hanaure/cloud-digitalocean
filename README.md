@@ -16,7 +16,7 @@ Abaixo tambem há alguns passos para caso precise acessar o banco de dados remot
 # Acesse o mysql
 ``` mysql -u root -p ```
 # Insira o comando a baixo substituindo a senha pela do mysql
-GRANT ALL ON *.* TO 'root'@'%' IDENTIFIED BY 'senha' WITH GRANT OPTION;
+```sql GRANT ALL ON *.* TO 'root'@'%' IDENTIFIED BY 'senha' WITH GRANT OPTION; ```
 # Execute os privilégios 
 FLUSH PRIVILEGES;
 # Saia do mysql
