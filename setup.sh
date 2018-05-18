@@ -60,6 +60,7 @@ sudo apt-get install php7.1-redis --assume-yes
 sudo apt-get install php7.1-xml
 sudo apt-get install php7.1-gd
 service apache2  restart
+# e caso de problema de key no terminal do cliente use ssh-keygen -R (IP)
 sudo apt-get install openssh-server
 
 # Instale apartir daqui o que você desejar 
