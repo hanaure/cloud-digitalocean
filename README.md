@@ -10,7 +10,7 @@ Abaixo tambem há alguns passos para caso precise acessar o banco de dados remot
 #   Configuração para liberar o acesso remoto no mysql   #
 ##########################################################
 # Acesse o arquivo mysqld.cnf
-sudo nano /etc/mysql/mysql.conf.d/mysqld.cnf
+```sudo nano /etc/mysql/mysql.conf.d/mysqld.cnf```
 # Comente a linha colocando o # na frente
 #bind-address = 127.0.0.1
 # Acesse o mysql
