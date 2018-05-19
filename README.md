@@ -1,5 +1,7 @@
 # Cloud-DigitalOcean
-Ambiente Laravel (config inicial) em  Ubuntu 16.04.4 LTS
+# Ambiente Laravel (config inicial) em  Ubuntu 16.04 LTS
+# Link instalação NetInstall do Ubuntu
+http://archive.ubuntu.com/ubuntu/dists/xenial-updates/main/installer-amd64/current/images/netboot/mini.iso
 
 O script será responsável  pela instalação do Mysql, PHP, PHPMyAdmin, Openssh, Composer, Redis.
 
